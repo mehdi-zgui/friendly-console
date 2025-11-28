@@ -1,13 +1,35 @@
 {
-  "name": "friendly-console",
+  "name": "@zguigou-elmehdi/friendly-console",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Transforme tes logs en moments de joie avec des blagues, citations et messages d'erreur sympathiques ! 🎉",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test/index.test.js",
+    "example": "node example.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs"
+  "keywords": [
+    "console",
+    "log",
+    "error",
+    "jokes",
+    "quotes",
+    "funny",
+    "developer",
+    "debugging",
+    "friendly",
+    "humor"
+  ],
+  "author": "ZGUIGOU ELMEHDI",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mehdi-zgui/friendly-console"
+  },
+  "bugs": {
+    "url": "https://github.com/mehdi-zgui/friendly-console/issues"
+  },
+  "homepage": "https://github.com/mehdi-zgui/friendly-console#readme",
+  "engines": {
+    "node": ">=12.0.0"
+  }
 }
